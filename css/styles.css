@@ -173,15 +173,11 @@ a {
 }
 
 .header-icon-mail {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: var(--icon-color);
 }
 
 .header-icon-phone {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
   fill: var(--icon-color);
 }
@@ -355,9 +351,6 @@ a {
 }
 
 .clients-icon {
-  height: 60px;
-  width: 106px;
-
   fill: var(--icon-color);
 }
 
@@ -413,11 +406,6 @@ a {
   margin-bottom: 10px;
 }
 
-.features-icon {
-  width: 70px;
-  height: 70px;
-}
-
 .features-icon-bgc {
   background: var(--button-bgc);
   border-radius: 4px;
@@ -441,11 +429,6 @@ a {
 .hero .list {
   display: flex;
   justify-content: space-between;
-}
-
-.social-icon {
-  height: 20px;
-  width: 20px;
 }
 
 .social-icon-bg {
