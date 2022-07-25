@@ -207,6 +207,7 @@ a {
 .section.bgc {
   height: 600px;
   max-width: 1600px;
+  margin: 0 auto;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -215,8 +216,8 @@ a {
     url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 
+  background-position: center;
   background-color: var(--background-color);
   text-align: center;
 }
@@ -354,8 +355,19 @@ a {
   fill: var(--icon-color);
 }
 
-.clients-icon-bg {
+/* .clients-icon-bg {
+  display: flex;
   padding: 16px 32px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+} */
+
+.clients-icon-bg {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
@@ -409,8 +421,12 @@ a {
 .features-icon-bgc {
   background: var(--button-bgc);
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
+  display: flex;
+  height: 120px;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* --------types-of-jobs-------- */
